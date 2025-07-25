@@ -3,7 +3,8 @@ import ProductForm from "./ProductForm";
 import ProductList from "./ProductList";
 import "./index.css";
 
-const API_URL = "http://localhost:8000/api/products/";
+const API_URL = "https://ecommerceb-1-alqm.onrender.com/api/products/";
+
 
 const App = () => {
   const [products, setProducts] = useState([]);
